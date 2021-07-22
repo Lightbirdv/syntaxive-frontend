@@ -1,0 +1,121 @@
+@media only screen and (min-width: 769px) {
+    
+    .regButton {
+        padding: 0;
+        border: 1px solid #0029A0;
+        background-color: #0029A0;
+        border-radius: 9px;
+        width: 7.33vw;
+        height: 2vw;
+        min-height: 30px;
+        color: white!important;
+    }
+
+    .myModal {
+        width: 60vw;
+        max-width: 100vw;
+    }
+    
+    .xModalButton {
+        border: none;
+        background-color: white;
+        font-size: 36px;
+        float:right; 
+        margin-right: 2vw;
+    }
+
+    .Logo {
+        width: 9.84vw;
+        height: 2.5vw;
+        margin-left: 2vw;
+    }
+
+    .brandModal{
+        margin-left: -1.2vw;
+        float: left;
+        width: 25.15vw;
+        height: 40.36vw;
+    }
+
+    .modalFormWrapper {
+        float: right;
+        width: 30vw;
+    }
+
+    .modal-body {
+        display:block;
+    }
+
+
+    .signButton {
+        margin-top: 1.2vw;
+        background-color: #2ED3AD;
+        border: 1px solid #2ED3AD;
+        border-radius: 5px;
+        width: 30vw;
+        height: 40px;
+        margin-bottom: 0.5vw;
+        text-decoration: none;
+        color: #F6F1FB!important;
+        font-size: 14px!important;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .brandModal {
+        display:none;
+    }
+
+    .xModalButton {
+        border: none;
+        background-color: white;
+        font-size: 36px;
+        float:right; 
+        margin-right: 2vw;
+    }
+
+    .signButton {
+        margin-top: 1.2vw;
+        background-color: #2ED3AD;
+        border: 1px solid #2ED3AD;
+        border-radius: 5px;
+        width: 30vw;
+        height: 40px;
+        margin-bottom: 0.5vw;
+        text-decoration: none;
+        color: #F6F1FB!important;
+        font-size: 14px!important;
+    }
+   
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+    
+    .brandModal {
+        display:none;
+    }
+
+    .xModalButton {
+        border: none;
+        background-color: white;
+        font-size: 36px;
+        float:right; 
+        margin-right: 2vw;
+    }
+
+    .signButton {
+        margin-top: 1.2vw;
+        background-color: #2ED3AD;
+        border: 1px solid #2ED3AD;
+        border-radius: 5px;
+        width: 468px;
+        height: 40px;
+        margin-bottom: 0.5vw;
+        text-decoration: none;
+        color: #F6F1FB!important;
+        font-size: 14px!important;
+    }
+    
+}

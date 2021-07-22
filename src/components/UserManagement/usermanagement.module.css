@@ -1,0 +1,45 @@
+@media only screen and (min-width: 769px) {
+    .userManagement {
+        margin-left: 250px;
+    }
+}
+
+
+.userCardItem {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.06);
+    max-width: 70%;
+    height: 20vh;
+    margin-left: 15%;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+.deleteUserButton {
+    float: right;
+    padding: 0;
+    border: 1px solid rgb(217, 84, 78);
+    background-color: rgb(217, 84, 78);
+    color: white;
+    border-radius: 9px;
+    width: 100px;
+    height: 40px;
+    margin-right: 4vw;
+    margin-top: -10px;
+}
+
+.administratorText {
+    display: inline;
+}
+
+.Logo{
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.userManagement {
+    background-color: #F4F5F7;
+    height: 100%;
+}

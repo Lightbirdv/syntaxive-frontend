@@ -1,0 +1,32 @@
+@media only screen and (min-width: 769px) {
+    .newPost {
+        margin-left: 250px;
+    }
+}
+
+.newPost {
+    background-color: #F4F5F7;
+    height: 100vh;
+}
+
+.Logo{
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.formCard {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.postHeadline {
+    text-align: left;
+    font-size: 30px!important;
+}
+
+.postBtn {
+    margin-top: 3%;
+    background-color: #2ED3AD!important;
+    border: none;
+}

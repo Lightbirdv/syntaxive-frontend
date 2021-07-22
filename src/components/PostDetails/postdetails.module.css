@@ -1,0 +1,124 @@
+@media only screen and (min-width: 769px) {
+    .postDetails {
+        margin-left: 250px;
+    }
+}
+
+.postDetails {
+    background-color: #F4F5F7;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.Logo{
+    margin-top: 40px;
+    margin-left: 10%;
+}
+
+.postFormCard {
+    background-color: white;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.postFormCardContent {
+    padding: 15px;
+}
+
+.hTitle {
+    text-align: left;
+    font-size: 30px!important;
+    word-wrap: break-word;
+}
+
+.pDate {
+    margin-top: -5px;
+}
+
+.pContent {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tag {
+    display: inline;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid #b3ffed;
+    color:#2ED3AD!important;
+    background-color: #b3ffed;
+}
+
+.pAuthor {
+    margin-top: 10px;
+}
+
+.commentField {
+    background-color: white;
+    margin-top: 15px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.commentFieldContent {
+    padding: 15px;
+}
+
+.pCommentHeader {
+    margin-bottom: 30px;
+}
+
+.pNoComment {
+    text-align: center;
+    color: gray!important;
+    margin-top: 5px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.deletePostBtn {
+    float: right;
+    margin-right: 15%;
+    margin-top: 3%;
+    background-color: rgb(217, 84, 78);
+    border: none;
+}
+
+.newCommentBtn {
+    float: left;
+    margin-left: 15%;
+    margin-top: 3%;
+    background-color: #2ED3AD;
+    border: none;
+}
+
+.newCommentBtn:focus{
+    background-color: #2ED3AD;
+}
+
+.newCommentForm {
+    margin-top: 15px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.postCommentBtn {
+    margin-top: 3%;
+    background-color: #2ED3AD;
+    border: none;
+}
+
+.cnclBtn {
+    float: right;
+    margin-top: -35px;
+    background-color: rgb(217, 84, 78);
+    border: none;
+}
+
+.comment{
+    margin-bottom: 50px;
+}

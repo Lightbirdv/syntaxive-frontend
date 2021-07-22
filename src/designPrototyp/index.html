@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Syntaxive</title>
+       
+		<link
+			rel="stylesheet"
+			media="screen and (min-width: 769px)"
+			href="./css/styles-monitor.css"
+		/>
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 768px) and (min-width: 577px)"
+			href="./css/styles-tablet.css"
+		/>
+		<link
+			rel="stylesheet"
+			media="screen and (max-width: 576px)"
+			href="./css/styles-phone.css"
+		/>
+        <link
+			rel="stylesheet"
+			href="./css/bootstrap4_5.min.css"
+		/> 
+        
+	</head>
+	<body>
+        <div class="header-container">
+            <a href="#navigation" class="nav-trigger">
+                Menu <span></span>
+            </a>
+            <div class="page-wrapper">
+                <div class="nav-wrapper" id="nav-wrapper">
+                    <div class="mobtabnav">
+                        <img src="./img/logo.svg" id="logo" alt="default" />
+                        <button id="mobtablogin" data-toggle="modal" data-target="#loginModal"><a>Log in</a></button>
+                    </div>
+                    <div class="nav-container" id="nav-container">
+                        <img src="./img/logo.svg" id="logo" alt="default" />
+                        <nav class="nav-header" id="navigation">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a href="#header" id="selected">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <button id="login" data-toggle="modal" data-target="#loginModal"><a>Log in</a></button>
+                                </li>
+                                <li class="nav-item">
+                                    <button id="signup"><a href="#Maßschuhe">Sign up</a></button>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="">Newsletter</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <img src="./img/Headerimg.svg" alt="header picture">
+            </div>
+            <div class="page-wrapper">
+                <div class="header-content">
+                    <h1>Level up your coding now!</h1>
+                    <p>syntaxive the website for Programmers, programming Freelancers and people 
+                        who enjoy to participate in  discussions 
+                        and compete on coding headhunts.</p>
+                    <input type="text" id="emailbox" placeholder="Enter your E-mail">
+                    <button id="signup"><a href="#Maßschuhe">Sign up</a></button>
+                </div>
+            </div>
+        </div>
+        <!-- Modal HTML -->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./img/Brand.svg" id="brand-modal" alt="brandlogin">
+                        <div class="modal-form-wrapper">
+                            <img src="./img/Logo.svg" id="logo-modal" alt="logologin">
+                            <input type="text" id="emailbox-modal" placeholder="Email address">
+                            <input type="text" id="password-modal" placeholder="Password">
+                            <button id="login-modal"><a href="">LOG IN</a></button>
+                            <a href="" id="forgot-modal">Forgot Password?</a>
+                            <button id="continue-facebook"><img src="./img/Facebook-modal.svg" alt=""><a href="">CONTINUE WITH FACEBOOK</a></button>
+                            <button id="continue-google"><img src="./img/Google-modal.svg" alt=""><a href="">CONTINUE WITH GOOGLE</a></button>
+                            <p id="no-account-modal">DON'T HAVE AN ACCOUNT? <a href="">SIGN UP</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <img src="./img/Brand.svg" id="brand" alt="Brand transparent">
+        <div class="page-wrapper">
+            <div class="features-container">
+                <h1>What can syntaxive offer you:</h1>
+                <img src="./img/Featurebar.svg" id="featurebar" alt="green Featurebar">
+                <img src="./img/Featurebar-TabMob.svg" id="featurebar-TabMob" alt="featurebar-TabMob">
+                <div class="feature-card">
+                    <h2>Discussions</h2>
+                    <p id="description-text">Exchange information with other developers about new solution approaches.</p>
+                </div>
+                <div class="feature-card">
+                    <h2>Practice & Learn</h2>
+                    <p id="description-text">Try your hand at practice problems, submit your solutions in the language of your choice and receive points to move up your syntaxive rank.</p>
+                </div>
+                <div class="feature-card">
+                    <h2>Compete & Hunt</h2>
+                    <p id="description-text">Select from 400+ challenges to create and customize code that
+                        will be rewarded if selected.</p>
+                </div>
+            </div>
+            <div class="help-container">
+                <h1>How can syntaxive help you?</h1>
+                <div class="helpcard">
+                    <img src="./img/Softwareengineering-Badge.svg" alt="Softwareengineering-Badge">
+                    <h2>Software Engineering</h2>
+                    <button id="discButton"><a href="">Enter Discussion</a></button>
+                </div>
+                <div class="helpcard">
+                    <img src="./img/DataScience-Badge.svg" alt="DataScience-Badge">
+                    <h2>Data Science</h2>
+                    <button id="discButton"><a href="">Enter Discussion</a></button>
+                </div>
+                <div class="helpcard">
+                    <img src="./img/Front-endDeveloping-Badge.svg" alt="Front-endDeveloping-Badge">
+                    <h2>Front-end Developing</h2>
+                    <button id="discButton"><a href="">Enter Discussion</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="footer">
+            <img src="./img/Logo-Footer.svg" id="footerlogo" alt="Logofooter">
+            <p id="newsletter-p">Newsletter</p>
+            <div class="newsletterbox">
+                <label for="emailboxfooter">Newsletter</label>
+                <input type="text" id="emailboxfooter" placeholder="Your E-mail">
+                <Button id="paperplane"><img src="./img/Paperplane.svg" alt="paperplane"></Button>
+            </div>
+            <div class="clearfix"></div>
+            <div class="footernav">
+                <a href="">Home</a>
+                <a href="">About us</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="socialmedia">
+                <a href="facebook.com"><img src="./img/Facebook.svg" alt="facebook"></a>
+                <a href="twitter.com"><img src="./img/Twitter.svg" alt="twitter"></a>
+                <a href="youtube.com"><img src="./img/Youtube.svg" alt="youtube"></a>
+            </div>
+            <p>@Copyright 2021 - syntaxive</p>
+        </div>
+        
+        
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/script.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+		
+	</body>
+</html>

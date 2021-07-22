@@ -1,0 +1,106 @@
+
+@font-face { font-family: Poppins; src: url('../../layout/font/poppins-regular-webfont.woff') format("woff"); }
+@font-face { font-family: Poppins; src: url('../../layout/font/poppins-medium-webfont.woff') format("woff"); font-weight: 500; }
+@font-face { font-family: Poppins; src: url('../../layout/font/poppins-bold-webfont.woff') format("woff"); font-weight: 600; }
+
+@media only screen and (min-width: 769px) {
+    .privatePage {
+        margin-left: 250px;
+    }
+    .privateLogo {
+        display: none;
+    }
+
+    .searchBar {
+        background-color: white;
+        border-radius: 5px;
+        border: none;
+        margin-top: 8px;
+        width: 80%;
+        height: 30px;
+        padding-left: 20px;
+    }
+
+}
+
+.privatePage {
+    background-color: #F4F5F7;
+}
+
+.blogItem {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.06);
+    min-height: 120px;
+    max-width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.blogItemContent {
+    margin-left: 20px;
+}
+
+.picSearchBar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 8vw;
+}
+
+.privateProfilePic {
+    height: 60px;
+    width: 60px;
+}
+
+.blogItem h1 {
+    font-size: 16px!important;
+    text-align: left;
+}
+
+.tq{
+    float: left;
+    margin-left: 10%;
+    font-size: 30px!important;
+}
+
+.newPostBtn {
+    margin-top: 5px;
+    float: right;
+    margin-right: 10%;
+    font-family: Poppins;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 120px;
+    font-size: 16px;
+    background-color: #2ED3AD!important;
+}
+
+.tag {
+    display: inline;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid #b3ffed;
+    color:#2ED3AD!important;
+    background-color: #b3ffed;
+}
+
+.searchBar {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.privateLogo {
+    margin-top: 40px;
+    margin-left: 8vw;
+}
+
+.clearfix {
+    clear: both;
+}

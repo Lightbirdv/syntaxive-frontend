@@ -1,0 +1,9 @@
+UserInfo object:
+userInfo: {
+    "user_id":"60ae6cd3df57a8545c21f092",
+    "user_username":"admin",
+    "user_isAdministrator":true
+    "user_preference":""
+    }
+
+    
